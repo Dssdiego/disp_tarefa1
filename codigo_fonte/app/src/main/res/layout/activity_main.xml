@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:paddingLeft="16dp"
+        android:paddingStart="1dp"
+        android:paddingEnd="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        android:textSize="10pt"
+        android:text="Tarefa 1\nProgramação para Dispositivos Móveis" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:paddingLeft="16dp"
+        android:paddingStart="1dp"
+        android:paddingEnd="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        android:text="Clique em um dos botões\nabaixo para acessar a tela desejada:" />
+
+    <Button
+        android:id="@+id/btnCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/colorAccent"
+        android:text="Código" />
+
+    <Button
+        android:id="@+id/btnXml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/colorAccent"
+        android:text="XML" />
+
+    <Button
+        android:id="@+id/btnDragDrop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/colorAccent"
+        android:text="Drag e Drop" />
+
+
+</LinearLayout>
